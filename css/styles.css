@@ -143,7 +143,9 @@ gap: 40px;
     align-items: center;
   }
 
-
+.menu-item {
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 
 
 /*=================== Hero-section-1 ============================*/
@@ -188,6 +190,7 @@ gap: 40px;
     background: var(--accent-color);
     padding-top: 188px;
     padding-bottom: 188px;
+    
 } 
 
 .modal-btn {
@@ -201,6 +204,20 @@ gap: 40px;
     min-width: 169px;
     border-radius: 4px;
 }
+/* hero-backgraund */
+.backgraund-hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/people-office.jpg);
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
+    max-width: 1440px;
+    
+    
+   
+   
+} 
+    
+
     
 
 /*=================== Section 2=================================== */
@@ -289,11 +306,8 @@ color: var(--accent-color);
    display: flex;
    flex-wrap: wrap;
     gap: 24px;
-    
 }
-.our-work-container {
-    padding-bottom: 120px;
-}
+
 
 /*===================Section-4===================================  */
 .our-team {
