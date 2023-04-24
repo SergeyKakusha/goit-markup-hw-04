@@ -397,6 +397,36 @@ gap: 24px;
     margin-bottom: 72px;
  }
 
+ /* -------list-icon------ */
+ .icon-our-team {
+    padding: 32px 0;
+
+ }
+ .icon-our-team-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+ }
+ .icon-our-team-list-link {
+    width: 40px;
+    height: 40px;
+
+ }
+ .cocial-list-icon {
+    width: 100%;
+    height: 100%;
+    background-color: var(--logo-btn-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+ }
+ .list-link-icon {
+    fill: #f4f4fd;
+    
+ }
 
 /*==============Footer================================= */
 
