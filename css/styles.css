@@ -384,7 +384,8 @@ gap: 24px;
 }
 
 .post-s-t {
-    padding: 32px 16px;
+    padding: 32px 0;
+    
 }
 .team-member-name {
     text-align: center;
@@ -398,14 +399,12 @@ gap: 24px;
  }
 
  /* -------list-icon------ */
- .icon-our-team {
-    padding: 32px 0;
-
- }
+ 
  .icon-our-team-list {
     display: flex;
     justify-content: center;
     gap: 24px;
+    padding: 32px 0;
     
  }
  .icon-our-team-list-link {
