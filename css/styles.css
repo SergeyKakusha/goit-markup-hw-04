@@ -406,9 +406,7 @@ gap: 24px;
     display: flex;
     justify-content: center;
     gap: 24px;
-    
-    
- }
+}
  
 
  .cocial-list-icon:hover,
@@ -426,16 +424,14 @@ gap: 24px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    
-
-
- }
+}
  .list-link-icon-four {
-    fill: var(--fond-btn-color);
-   
-   
-    
- }
+    fill: var(--btn-color)
+}
+
+
+
+
  /* =========== Section-5 ================ */
 .section-icono {
     padding: 120px 0;
