@@ -513,9 +513,9 @@ color: var(--logo-btn-color);
 color: var(--fond-btn-color);
 }
 
-.footer {
-background: var(--accent-color);
-}
+
+
+
 
 .footer-text {
 font-size: 16px;
@@ -528,6 +528,7 @@ color: var(--fond-btn-color);
 
 .footer {
     padding: 100px 0;
+    background: var(--accent-color);
 }
 .logo-type-footer {
     display: inline-block;
@@ -537,35 +538,49 @@ color: var(--fond-btn-color);
     max-width: 264px;
     
 }
-.logo-footer {
+.footer-container {
     display: flex;
     align-items: baseline;
+}
+.logo-footer-div {
     margin-right: 120px;
-    
-
 }
 .p-social-media {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--fond-color);
     margin-bottom: 16px;
-    
+    color: var(--fond-color);
+
 }
+
+
 .logo-footer-ul {
+    display: flex;
     gap: 16px;
-    width: 40px; 
-    height: 40px; 
+    
+
 }
 .cocial-list-icon {
-    display: flex;
-    align-items: baseline;
+display: flex;
+justify-content: center;
+align-items: baseline;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-color: #4d5ae5;
 
 }
-.logo-footer-div {
-    margin-right: 120px;
 
+
+.cocial-list-icon:hover,
+.cocial-list-icon:focus {
+  background-color: #31d0aa;
+}
+
+.list-link-icon-four {
+    fill: #f4f4fd;
 }
 
 /*==================================== Portfolio========================== */
