@@ -400,7 +400,7 @@ gap: 24px;
     margin-bottom: 72px;
  }
 
- /* -------list-icon------ */
+ /* ------- list-icon- ----- */
  
  .icon-our-team-list {
     display: flex;
@@ -413,7 +413,7 @@ gap: 24px;
 
  .cocial-list-icon:hover,
  .cocial-list-icon:focus {
- background-color: #404bbf;
+ background-color: var(--btn-color)
  }
 
 
