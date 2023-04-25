@@ -428,13 +428,15 @@ gap: 24px;
     align-items: center;
     justify-content: center;
     height: 100%;
+    width: 40px;
+    height: 40px;
     
 
 
  }
  .list-link-icon-four {
-    fill: var(--fond-btn-color)
-    
+    fill: var(--fond-btn-color);
+    align-items: center;
    
     
  }
