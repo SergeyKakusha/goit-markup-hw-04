@@ -515,6 +515,36 @@ color: var(--fond-btn-color);
     max-width: 264px;
     
 }
+.logo-footer {
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
+    
+
+}
+.p-social-media {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--fond-color);
+    margin-bottom: 16px;
+    
+}
+.logo-footer-ul {
+    gap: 16px;
+    width: 40px; 
+    height: 40px; 
+}
+.icono-footer-dive {
+    display: flex;
+    align-items: baseline;
+
+}
+.logo-footer-div {
+    margin-right: 120px;
+
+}
 
 /*==================================== Portfolio========================== */
 
