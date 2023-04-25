@@ -482,8 +482,8 @@ gap: 24px;
 }
 .icono-five-list:hover,
 .icono-five-list:focus {
-border-color:#40bbbf;
-color: #40bbbf;
+  border-color: #404bbf;
+  color: #404bbf;
 }
 
 .list-link-five {
