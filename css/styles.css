@@ -411,11 +411,10 @@ gap: 24px;
  }
  
 
-.cocial-list-icon:hover,
-.cocial-list-icon:focus
- {background-color: #404bbf;
-}
-
+ .cocial-list-icon:hover,
+ .cocial-list-icon:focus {
+    background-color: #404bbf;
+ }
 
 
 
