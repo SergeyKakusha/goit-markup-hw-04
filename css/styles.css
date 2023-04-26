@@ -8,6 +8,8 @@
     --border-color:  #e7e9fc 
     --icono-color: #8e8f99;
     --icono-color: #8e8f99;
+    --cocil-icono: #4d5ae5;
+    --icono-hover: #31d0aa
     }
 
     h1,h2,h3,p {
@@ -411,7 +413,7 @@ gap: 24px;
 
  .cocial-list-icon-footer:hover,
  .cocial-list-icon-footer:focus {
-    background-color: #31d0aa
+    background-color:var(--icono-hover)
  }
 
 
@@ -424,7 +426,7 @@ gap: 24px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color:  #404bbf
+    background-color: var(--btn-color)
 }
  .list-link-icon-four {
     fill: #f4f4fd;
@@ -568,10 +570,9 @@ background-color: #4d5ae5;
 
 }
 
-
 .cocial-list-icon:hover,
 .cocial-list-icon:focus {
-  background-color: #31d0aa;
+  background-color: var(--icono-hover)
 }
 
 .list-link-icon-footer {
