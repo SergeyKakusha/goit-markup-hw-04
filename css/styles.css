@@ -409,15 +409,15 @@ gap: 24px;
 }
  
 
- .cocial-list-icon:hover,
- .cocial-list-icon:focus {
+ .cocial-list-icon-footer:hover,
+ .cocial-list-icon-footer:focus {
     background-color: #31d0aa
  }
 
 
 
 
- .cocial-list-icon {
+ .cocial-list-icon-footer {
     display: flex;
     justify-content: center;
     align-items: center;
