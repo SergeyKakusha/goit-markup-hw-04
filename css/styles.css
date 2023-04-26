@@ -411,15 +411,15 @@ gap: 24px;
 }
  
 
- .cocial-list-icon-footer:hover,
- .cocial-list-icon-footer:focus {
+ .cocial-list-icon:hover,
+ .cocial-list-icon:focus {
     background-color:var(--icono-hover)
  }
 
 
 
 
- .cocial-list-icon-footer {
+ .cocial-list-icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -559,19 +559,19 @@ color: var(--fond-btn-color);
     
 
 }
-.cocial-list-icon {
+.cocial-list-icon-footer {
 display: flex;
 justify-content: center;
 align-items: center;
 width: 40px;
 height: 40px;
 border-radius: 50%;
-background-color: #4d5ae5;
+background-color: var(--cocil-icono)
 
 }
 
-.cocial-list-icon:hover,
-.cocial-list-icon:focus {
+.cocial-list-icon-footer:hover,
+.cocial-list-icon-footer:focus {
   background-color: var(--icono-hover)
 }
 
