@@ -427,7 +427,7 @@ gap: 24px;
     background-color:  #404bbf
 }
  .list-link-icon-four {
-    fill: var(--btn-color)
+    fill: #f4f4fd;
 }
 
 
@@ -574,7 +574,7 @@ background-color: #4d5ae5;
   background-color: #31d0aa;
 }
 
-.list-link-icon-four {
+.list-link-icon-footer {
     fill: #f4f4fd;
 }
 
